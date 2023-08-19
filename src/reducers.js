@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import contactsReducer from './contactsSlice'; // Update this path
+import contactsReducer from './contactsSlice'; 
 
 const rootReducer = combineReducers({
   contacts: contactsReducer,

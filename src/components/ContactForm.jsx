@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { nanoid } from 'nanoid';
-import { addContact } from '../contactsSlice'; // Оновіть шлях відповідно
+import { addContact } from '../contactsSlice'; 
 
 const ContactForm = () => {
   const contacts = useSelector(state => state.contacts.contacts);
